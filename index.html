@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase project</title>
+
+  <meta charset="utf-8">
+
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
+
+  <!-- Styling -->
+  <style media="screen">
+    body {
+      display: flex;
+      min-height: 100vh;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      align-items: center;
+      /*Opp ned*/
+      justify-content: center; 
+      /* At komponentene skal komme*/
+      flex-direction: column;
+    }
+
+    /* CSS: # = class, body = html element <body></body>*/
+    #uploader {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 50%;
+      margin-bottom: 10px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+<progress value="0" max="100" id="uploader">0%</progress>
+<input type="file" value="upload" id="fileButton" />
+
+
+<script src="progressBar.js"></script>
+</body>
+</html>
