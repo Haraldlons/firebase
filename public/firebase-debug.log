@@ -1,0 +1,25 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Harald\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.0.8
+[debug] Platform:     win32
+[debug] Node Version: v6.6.0
+[debug] Time:         Sat Oct 22 2016 18:56:21 GMT+0200 (Vest-Europa (sommertid))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/web-quickstart-a295e 
+[debug] Error: EPERM: operation not permitted, rename 'C:\Users\Harald\.config\configstore\firebase-tools.json.2945053378' -> 'C:\Users\Harald\.config\configstore\firebase-tools.json'
+    at Error (native)
+    at Object.fs.renameSync (fs.js:809:18)
+    at Function.writeFileSync [as sync] (C:\Users\Harald\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:81:8)
+    at Object.set (C:\Users\Harald\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:62:21)
+    at Object.Configstore.set (C:\Users\Harald\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:93:11)
+    at Request._callback (C:\Users\Harald\AppData\Roaming\npm\node_modules\firebase-tools\lib\fetchMOTD.js:51:19)
+    at Request.self.callback (C:\Users\Harald\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:187:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (C:\Users\Harald\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1048:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/web-quickstart-a295e/tokens 
