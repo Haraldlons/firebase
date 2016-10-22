@@ -21,3 +21,4 @@ staging //Navn
 firebase use default //gå tilbake til default
 firebase deploy
 
+Når man skal skaffe seg token, pass på, ikke bruk GIT Bash shell, fordi enkelte kommandoer fungerer ikke da. 
