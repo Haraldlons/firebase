@@ -1,6 +1,6 @@
 When initializing firebase hosting locally.
 
-HELLO  MY FRIEND
+Development branch readme
 
 firebase init doesnt work on windows unless you first type
 firebase login --interactive
