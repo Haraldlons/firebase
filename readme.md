@@ -1,5 +1,7 @@
 When initializing firebase hosting locally.
 
+HELLO  MY FRIEND
+
 firebase init doesnt work on windows unless you first type
 firebase login --interactive
 Follow instructions, and dont host any other sides locally simultaneously(wow, that was a hard word).
