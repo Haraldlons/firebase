@@ -3,23 +3,23 @@
 Hosted by Firebase: 
 https://web-quickstart-a295e.firebaseapp.com/
 
-# Host project locally
+## Host project locally
 ```bash
 firebase serve
 ```
 
-# Prerequisite
+## Prerequisite
 - firebase cli
 
 
 
-# Various notes
+## Various notes
 ```bash
 firebase init #doesnt work on windows unless you first type
 firebase login --interactive
 ```
 
-## Initializing project
+### Initializing project
 ```bash
 firebase init
 # Choose hosting
