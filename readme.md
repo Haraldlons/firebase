@@ -1,3 +1,7 @@
+# Firebase Test Upload Files Repository
+
+Hosted by Firebase on this url: https://web-quickstart-a295e.firebaseapp.com/
+
 When initializing firebase hosting locally.
 
 HELLO  MY FRIEND
