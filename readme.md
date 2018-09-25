@@ -1,30 +1,40 @@
 # Firebase Test Upload Files Repository
 
-Hosted by Firebase on this url: https://web-quickstart-a295e.firebaseapp.com/
+Hosted by Firebase: 
+https://web-quickstart-a295e.firebaseapp.com/
 
-When initializing firebase hosting locally.
+# Host project locally
+```bash
+firebase serve
+```
 
-HELLO  MY FRIEND
+# Prerequisite
+- firebase cli
 
-firebase init doesnt work on windows unless you first type
+
+
+# Various notes
+```bash
+firebase init #doesnt work on windows unless you first type
 firebase login --interactive
-Follow instructions, and dont host any other sides locally simultaneously(wow, that was a hard word).
+```
 
-
+## Initializing project
+```bash
 firebase init
-Choose hosting
-public directory: public
+# Choose hosting
+# public directory: public
 
 firebase deploy
-hosting ...
+# hosting ...
 
 firebase open
 
-staging environment
+# staging environment
 firebase use --add
-staging //Navn
+# staging //Navn
 
 firebase use default //gå tilbake til default
 firebase deploy
-
+```
 Når man skal skaffe seg token, pass på, ikke bruk GIT Bash shell, fordi enkelte kommandoer fungerer ikke da. 
